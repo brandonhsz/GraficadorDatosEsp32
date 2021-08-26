@@ -1,10 +1,21 @@
-.App {
-  text-align: center;
+html, body { 
+  background-color: #282c34; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mar {
+  margin: 1rem;
+}
+
+.absolute {
+  position: absolute;
+  left: 10px;
+  top: 11px;
+}
+
+.background-tag {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 15%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +26,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
